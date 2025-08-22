@@ -247,17 +247,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support & Community
 
-- **💬 Discussions**: [GitHub Discussions](https://github.com/yourusername/document-q-a/discussions)
-- **🐛 Issues**: [GitHub Issues](https://github.com/yourusername/document-q-a/issues)
+- **🐛 Issues**: [GitHub Issues](https://github.com/Vaidik26/Document-Q-A/issues)
 - **📧 Email**: support@document-qa.com
-- **🐦 Twitter**: [@DocumentQA](https://twitter.com/DocumentQA)
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by the Document Q&A Team**
-
-[⭐ Star this repo](https://github.com/yourusername/document-q-a) • [🐛 Report issues](https://github.com/yourusername/document-q-a/issues) • [📖 View docs](https://document-qa.readthedocs.io)
-
+[⭐ Star this repo](https://github.com/Vaidik26/Document-Q-A) • [🐛 Report issues](https://github.com/Vaidik26/Document-Q-A/issues) 
 </div>
