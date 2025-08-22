@@ -211,22 +211,6 @@ pytest tests/
 black src/ tests/
 ```
 
----
-
-## 📚 Documentation
-
-### 🔗 **Additional Resources**
-
-- [API Reference](docs/api.md) - Detailed API documentation
-- [Deployment Guide](docs/deployment.md) - Production deployment instructions
-- [Troubleshooting](docs/troubleshooting.md) - Common issues and solutions
-- [Examples](examples/) - Sample documents and use cases
-
-### 📖 **Tutorials**
-
-- [Getting Started Guide](docs/getting-started.md)
-- [Advanced RAG Techniques](docs/advanced-rag.md)
-- [Custom Model Integration](docs/custom-models.md)
 
 ---
 
