@@ -3,10 +3,11 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from PIL import Image
 import base64
 import io
+import numpy as np
+from langchain_community.vectorstores import FAISS
 from src.utils import load_pdf, embed_text, embed_image
 
 doc = load_pdf("data")
-
 
 def storing_vector_embed():
     
@@ -61,3 +62,14 @@ def storing_vector_embed():
                 continue
 
     doc.close()
+    
+    # Create unified FAISS vector store with CLIP embeddings
+    embeddings_array = np.array(all_embeddings)
+    
+    # Create custom FAISS index since we have precomputed embeddings
+    vector_store = FAISS.from_embeddings(
+        text_embeddings=[(doc.page_content, emb) for doc, emb in zip(all_docs, embeddings_array)],
+        embedding=None,  # We're using precomputed embeddings
+        metadatas=[doc.metadata for doc in all_docs]
+    )
+    return all_docs, all_embeddings, image_data_store, vector_store
