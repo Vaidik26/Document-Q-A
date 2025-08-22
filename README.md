@@ -185,7 +185,7 @@ docker run -p 8501:8501 document-qa
 We welcome contributions! Here's how you can help:
 
 ### 🐛 **Bug Reports**
-- Use the [GitHub Issues](https://github.com/yourusername/document-q-a/issues) page
+- Use the [GitHub Issues](https://github.com/Vaidik26/Document-Q-A/issues) page
 - Include detailed reproduction steps and system information
 
 ### 💡 **Feature Requests**
