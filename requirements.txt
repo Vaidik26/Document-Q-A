@@ -11,3 +11,7 @@ scikit-learn=1.7.1
 torch=2.8.0
 transformers=4.55.3
 sentencepiece=0.2.1
+flask 
+werkzeug
+streamlit
+protobuf==3.20.3
