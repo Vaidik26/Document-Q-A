@@ -60,7 +60,7 @@ Document Q&A is a cutting-edge **multimodal RAG (Retrieval-Augmented Generation)
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/document-q-a.git
+   git clone https://github.com/Vaidik26/Document-Q-A
    cd document-q-a
    ```
 
